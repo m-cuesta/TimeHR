@@ -1,0 +1,161 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package hrtimesoft;
+
+import java.text.SimpleDateFormat;
+import java.util.List;
+import java.util.Vector;
+import javax.swing.Icon;
+import javax.swing.table.DefaultTableModel;
+import timesoft.model.Maestro;
+
+/**
+ *
+ * @author usrConsultor19
+ */
+public class MaestroTableModel extends DefaultTableModel {
+    
+
+
+    private String[] labels = new String[]{ "PERNR",
+                                            "OK",
+                                            "VORNA",
+                                            "NAME2",
+                                            "NACHN",
+                                            "NACH2",
+                                            "KOSTL",
+                                            "DESCCC",
+                                            "WRKS",
+                                            "DESCDIV",
+                                            "BTRTL",
+                                            "DESCSUBDIV",
+                                            "TIPOEMPL",
+                                            "NUMDOCIDE",
+                                            "BUKRS",
+                                            "USRID",
+                                            "STATUS",
+                                            "COD1",
+                                            "COD2",
+                                            "SUPER",
+                                            "GESCH",
+                                            "FECIN",
+                                            "GBDAT",
+                                            "STRAS",
+                                            "TELNR",
+                                            "CELUL",
+                                            "FAX",
+                                            "USRIDLONG",
+                                            
+                                          };
+    SimpleDateFormat df = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+
+
+    public MaestroTableModel(List<Maestro> pMarcs ){
+        dataVector = new Vector<Maestro>(pMarcs);
+    }
+
+    @Override
+    public int getRowCount() {
+        return dataVector.size();
+    }
+
+    @Override
+    public int getColumnCount() {
+        return labels.length;
+    }
+
+    @Override
+    public Class getColumnClass(int c) {
+        
+        if ( c == 1 )
+            return Icon.class;
+        else
+            return String.class;
+    }
+
+    @Override
+    public String getColumnName(int col) {
+        return labels[col];
+    }
+    
+    @Override 
+    public Object getValueAt(int rowIndex, int columnIndex) {
+        Object value = internalValueAt(rowIndex,columnIndex);
+        if ( value == null )
+            return "NULL";
+        else
+            return value;
+    }
+    
+    private Object internalValueAt(int rowIndex, int columnIndex) {
+        Maestro r = (Maestro) dataVector.elementAt(rowIndex);
+        switch ( columnIndex )
+        {
+            case 0:
+                return r.getPernr();
+            case 1:
+                if ( r.getEstado() != null )
+                {
+                    if ( r.getEstado().equals("S"))
+                        return Constantes.GREENLIGHT;
+                    else if ( r.getEstado().equals("E"))
+                        return Constantes.REDLIGHT;
+                    else
+                        return Constantes.WHITE_IMAGE;
+                }
+                else
+                    return Constantes.WHITE_IMAGE;
+            case 2:
+                return r.getVorna();
+            case 3:
+                return r.getName2();
+            case 4:
+                return r.getNachn();
+            case 5:
+                return r.getNach2();
+            case 6:
+                return r.getKostl();
+            case 7:
+                return r.getDesccc();
+            case 8:
+                return r.getWrks();
+            case 9:
+                return r.getDescdiv();
+            case 10:
+                return r.getBtrtl();
+            case 11:
+                return r.getUsrid();
+            case 12:
+                return r.getStatus();
+            case 13:
+                return r.getCodempleadouno();
+            case 14:
+                return r.getCodempleadodos();
+            case 15:
+                return r.getSuperusuario();
+            case 16:
+                return r.getGesch();
+            case 17:
+                return r.getFecin();
+            case 18:
+                return r.getGbdat();
+            case 19:
+                return r.getStras();
+            case 20:
+                return r.getTelnr();
+            case 21:
+                return r.getCelul();
+            case 22:
+                return r.getFax();
+            case 23:
+                return r.getUseridLong();
+            default:
+                return null;
+        }
+
+    }
+    
+    
+}

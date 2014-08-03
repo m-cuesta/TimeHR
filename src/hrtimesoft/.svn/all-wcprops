@@ -1,0 +1,111 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 26
+/svn/timehrswing/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/timehrswing/!svn/ver/45/trunk/TimeHR/src/hrtimesoft
+END
+ColumnPropertiesCellRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/timehrswing/!svn/ver/3/trunk/TimeHR/src/hrtimesoft/ColumnPropertiesCellRenderer.java
+END
+CorreoYaExiste.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/timehrswing/!svn/ver/3/trunk/TimeHR/src/hrtimesoft/CorreoYaExiste.java
+END
+MarcacionesTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/timehrswing/!svn/ver/46/trunk/TimeHR/src/hrtimesoft/MarcacionesTableModel.java
+END
+HistorialTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/timehrswing/!svn/ver/18/trunk/TimeHR/src/hrtimesoft/HistorialTableModel.java
+END
+MaestroTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/timehrswing/!svn/ver/45/trunk/TimeHR/src/hrtimesoft/MaestroTableModel.java
+END
+HRTimesoftView.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/timehrswing/!svn/ver/46/trunk/TimeHR/src/hrtimesoft/HRTimesoftView.java
+END
+HRTimesoftView.form
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/timehrswing/!svn/ver/46/trunk/TimeHR/src/hrtimesoft/HRTimesoftView.form
+END
+ColumnPropertiesTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/timehrswing/!svn/ver/3/trunk/TimeHR/src/hrtimesoft/ColumnPropertiesTableModel.java
+END
+MarcacionesTableRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/timehrswing/!svn/ver/3/trunk/TimeHR/src/hrtimesoft/MarcacionesTableRenderer.java
+END
+NovedadesTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/timehrswing/!svn/ver/40/trunk/TimeHR/src/hrtimesoft/NovedadesTableModel.java
+END
+HRTimesoftApp.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/timehrswing/!svn/ver/46/trunk/TimeHR/src/hrtimesoft/HRTimesoftApp.java
+END
+MailPropertiesModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/timehrswing/!svn/ver/4/trunk/TimeHR/src/hrtimesoft/MailPropertiesModel.java
+END
+HRTimesoftAboutBox.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/timehrswing/!svn/ver/3/trunk/TimeHR/src/hrtimesoft/HRTimesoftAboutBox.java
+END
+HRTimesoftAboutBox.form
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/timehrswing/!svn/ver/3/trunk/TimeHR/src/hrtimesoft/HRTimesoftAboutBox.form
+END
+CorreosTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/timehrswing/!svn/ver/4/trunk/TimeHR/src/hrtimesoft/CorreosTableModel.java
+END
+NovedadesPaqueteTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/timehrswing/!svn/ver/40/trunk/TimeHR/src/hrtimesoft/NovedadesPaqueteTableModel.java
+END
+Constantes.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/timehrswing/!svn/ver/3/trunk/TimeHR/src/hrtimesoft/Constantes.java
+END
